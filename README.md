@@ -123,9 +123,9 @@ All of these upstream deprecation indicators effectively happen at the repo leve
 
 In this context, artifact-level deprecation makes sense: 1 deprecated/archived Git repo = 1 deprecated Maven artifact. Meanwhile version-level deprecation does not make sense; Git commits or tags don't have deprecation markers.
 
-### A per-version deprecation flag is redundant
+### A per-version deprecation flag is redundant for encouraging version upgrades
 
-Dependabot and IDEs already chase developers to update their dependency versions. (IntelliJ IDEA gained this ability in v2021.2.) If a newer version exists, the implication is that you should upgrade to it anyway. It would therefore be redundant to add another marker saying 'please get off of version X.Y.Z'.
+Dependabot and IDEs already chase developers to update their dependency versions. (IntelliJ IDEA gained this ability in v2021.2.) If a newer version exists, the implication is that you should upgrade to it anyway. It would therefore be redundant to add another marker saying 'please upgrade from version X.Y.Z'.
 
 ## Setting a deprecation indicator
 
